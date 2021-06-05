@@ -1,0 +1,33 @@
+h1 {
+  width: fit-content;
+  margin: auto;
+}
+
+h1 a {
+  color: blue;
+  font-size: 32px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  
+}
+
+a {
+  line-height: 100px;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+li:hover {
+  background: #eee;
+}

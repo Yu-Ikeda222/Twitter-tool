@@ -1,0 +1,187 @@
+.logo {
+  border-radius: 50%;
+  width: 50px; 
+  height: 50px;
+  margin-left: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  margin: 0 auto;
+  width: 80%;
+}
+
+nav ul {
+  list-style: none;
+  width: fit-content;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  width: 200px;
+  padding: 0;
+  margin: 0 25px;
+  text-align: center;
+  line-height: 64px;
+  color: black;
+  display: block;
+}
+
+nav a:hover {
+  background: #eee;
+}
+[href="http://ec2-52-69-27-30.ap-northeast-1.compute.amazonaws.com/show_twitter"]
+{
+  background: rgba(238, 238, 238, 0.8);
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.btn {
+  width: 50px;
+  height: 30px;
+  padding: 4px;
+  text-align: center;
+  background-color:rgb(255, 255, 240);
+  cursor: pointer;
+  margin: auto;
+  opacity: 1;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 30px auto 0;
+  text-align: center;
+  justify-content: space-between;
+}
+
+input {
+  height: 32px;
+  border-radius: 8px;
+  border-color:#383c3c ;
+  opacity: 0.8;
+}
+
+.input-container{
+  display: flex;
+  width: 50%;
+  margin: 5% auto;
+  justify-content: space-between;
+}
+
+.input-data {
+  width: 30%;
+  /* border: solid 1px; */
+  /* border-radius: 100vh; */
+}
+.input-data2 {
+  width: 30%;
+  /* border: solid 1px;
+  border-radius: 100vh; */
+}
+.input-data3 {
+  width: 30%;
+  /* border: solid 1px;
+  border-radius: 100vh; */
+}
+
+h2 {
+  width: fit-content;
+  margin: 30px auto;
+  font-weight: unset;
+}
+
+.container {
+  display: flex;
+  margin: 5%;
+  justify-content: space-between;
+}
+
+.origin {
+  width: 50%;
+  height: fit-content;
+  margin: auto;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.origin-screen-name {
+  width: fit-content;
+  margin: 3% auto;
+}
+
+.errors {
+  border: none;
+}
+.display-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+  justify-content: flex-start;
+}
+
+.each-box {
+  width: 30%;
+  margin: 5% 3% 5% 0;
+  border: solid 1px;
+  border-radius: 16px;
+
+}
+
+.each-box:nth-child(3n) {
+  margin-right: 0;
+}
+
+img {
+  border-radius: 50%;
+  width: 50px; 
+  height: 50px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.user-name {
+  width: 40%;
+  height: fit-content;
+  text-align: center;
+  margin: auto;
+}
+
+.details {
+  width: fit-content;
+  margin: 3% auto;
+}
+
+.details > span:nth-child(first){
+  text-align: center;
+}
+
+.origin,
+.user-name {
+  overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
